@@ -1,4 +1,7 @@
-[Multi-byte 4 byte UTF-8 support]
+[mysqld]
+# Database 4 byte UTF-8 support
 innodb_large_prefix=true
 innodb_file_format=barracuda
 innodb_file_per_table=true
+# Max Packet Size
+max_allowed_packet=64M
